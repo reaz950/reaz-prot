@@ -1,3 +1,7 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+/* Banner part css start */
 #banner{
     background-image: url(images/donation6.jpg);
     background-size: cover;
@@ -10,7 +14,32 @@
     color: white;
 
 }
-.heading-one{
-   
+.main-banner h1{
+    font-size: 30px;
+}
+
+.main-banner button{
+    background-color: tomato;
+    color: white;
+    padding: 10px 20px; 
+    border: none;
+}
+/* Donate today part css start */
+#donateToday{
+    text-align: center;
+    padding: 50px 300px;
+
+}
+.donate-today{
+    text-align: center;
+}
+.donate-money{
+    /* display:flex; */
+    display:block;
     
+    
+}
+.donate-money .money{
+    padding-left:50px;
+
 }
