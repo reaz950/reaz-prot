@@ -97,6 +97,52 @@ body{
     padding: 20px 40px;
     margin-left: 3%;
 }
+
+#galary{
+    padding-top: 50px;
+    
+}
+.gallary-heading{
+    text-align: center;
+}
+
+.galary-img{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.galary-img img{
+    width: 300px;
+}
+
+
+#update{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+#update p{
+    padding:10px 300px
+}
+
+.update-mail{
+    background-color: #FFF4D6;
+    padding: 50px 50px;
+}
+
+.update-mail input{
+    width: 300px;
+    height: 30px;
+}
+
+.update-mail button{
+    color: white;
+    background-color: tomato;
+    border: none;
+    padding: 10px 40px;
+
+}
+
 #footer{
     padding-top: 30px;
     padding-bottom: 30px;
