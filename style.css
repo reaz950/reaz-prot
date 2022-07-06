@@ -15,7 +15,11 @@ body{
 
 }
 .main-banner h1{
-    font-size: 30px;
+    font-size: 40px;
+}
+
+.main-banner p{
+    padding: 10px 300px;
 }
 
 .main-banner button{
@@ -23,6 +27,11 @@ body{
     color: white;
     padding: 10px 20px; 
     border: none;
+}
+
+.main-banner button:hover{
+    background-color: black;
+    transition: all linear 0.3s;
 }
 /* Donate today part css start */
 .donate-plan{
@@ -36,10 +45,40 @@ body{
 .donate-today{
     text-align: center;
 }
+
+.donate-heading h1{
+    font-size: 45px;
+}
+.donate-heading p{
+    color: #707070;
+    font-size: 15px;
+}
+
 .donate-money{
     justify-content: space-between;
     display: flex;
+    
 }
+
+.donate-money h4{
+    color: white;
+    background-color: tomato;
+    padding: 45px 25px;
+}
+.donate-button button{
+    color: white;
+    background-color: tomato;
+    padding: 10px 20px;
+    border: none; 
+}
+
+.donate-button button:hover{
+    color: white;
+    background-color: black;
+    transition: all linear 0.3s;
+
+}
+
 .donate-plan-item{
     justify-content: space-between;
     display: flex;
@@ -47,4 +86,29 @@ body{
 }
 .donate-item{
     width: 30%;
+}
+.donate-heading p{
+    padding: 50px 50px;
+
+}
+.donate-item{
+    background-color:#4F9DA61A;
+    text-align: justify;
+    padding: 20px 40px;
+    margin-left: 3%;
+}
+#footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #FF5959;
+    background-color: #0B0D17;
+    text-align: center;
+}
+
+#footer h1{
+    font-family: 'Lobster', cursive;
+}
+#footer p{
+    color: #fff;
+
 }
