@@ -25,6 +25,9 @@ body{
     border: none;
 }
 /* Donate today part css start */
+.donate-plan{
+    text-align: center;
+}
 #donateToday{
     text-align: center;
     padding: 50px 300px;
@@ -34,12 +37,14 @@ body{
     text-align: center;
 }
 .donate-money{
-    /* display:flex; */
-    display:block;
-    
-    
+    justify-content: space-between;
+    display: flex;
 }
-.donate-money .money{
-    padding-left:50px;
+.donate-plan-item{
+    justify-content: space-between;
+    display: flex;
 
+}
+.donate-item{
+    width: 30%;
 }
